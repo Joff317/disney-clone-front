@@ -1,0 +1,65 @@
+.body-content {
+  color: silver;
+  font-size: 20px;
+  line-height: 30px;
+  //   min-height: 100vh;
+  //   width: 100vw;
+}
+
+.hero {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  padding: 5.6vw;
+  position: relative;
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    z-index: 10;
+  }
+
+  img {
+    display: flex;
+    width: 250px;
+    height: 150px;
+  }
+
+  .form-container {
+    display: flex;
+    align-items: center;
+
+    .email-home {
+      width: 70%;
+      height: 48px;
+      border-radius: 2px;
+      // padding: 2px;
+      border: none;
+    }
+
+    .btn-submit {
+      width: 30%;
+      height: 50px;
+      background-color: rgb(69, 69, 237);
+      border: none;
+      border-radius: 2px;
+    }
+  }
+}
+
+.background-image {
+  background: url("../../assets/images/original.jpeg");
+  background-repeat: no-repeat;
+  bottom: 0;
+  left: 0px;
+  pointer-events: none;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  z-index: 0;
+  //   background-position: 50%;
+  background-size: cover;
+  min-height: 100vh;
+}
